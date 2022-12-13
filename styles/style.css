@@ -6,12 +6,16 @@ html {
 }
 body {
     max-width: 800px;
-    height:900px;
+    height:1000px;
     background-color: white;
     margin:0 auto;
     padding:0;
 }
 header {
+    /* position:relative; */
+    position:fixed;
+    top:0;
+    width: 40.05%;
     background-color: rgb(236, 238, 96);
     padding:1%;
     height:82px;
@@ -30,6 +34,8 @@ header h2 {
     padding: 0;
 }
 .nav{
+    position:relative;
+    top:110px;
     padding-top:0;
     margin-top:0px;
     clear:left;
