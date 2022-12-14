@@ -1,5 +1,6 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
 }
 html {
     background-color: rgb(131, 192, 131);
@@ -48,7 +49,7 @@ header h2 {
     display: none;
 }
 .nav li {
-    margin-left:90px;
+    margin-left:115px;
     width:60px;
     font-size:30px;
     display:inline;
@@ -74,4 +75,10 @@ header h2 {
 }
 .nav-hide{
     transform: translateY(-160px);
+}
+#paragraph {
+    padding: 140px 10px;
+    
+    float:left;
+    top:150px;
 }
