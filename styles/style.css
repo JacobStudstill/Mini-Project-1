@@ -7,7 +7,7 @@ html {
 }
 body {
     max-width: 800px;
-    height:1000px;
+    height:1100px;
     background-color: white;
     margin:0 auto;
     padding:0;
@@ -77,8 +77,30 @@ header h2 {
     transform: translateY(-160px);
 }
 #paragraph {
-    padding: 140px 10px;
-    
+    font-weight: normal;
+    font-size: 140%;
+    padding: 140px 10px 60px;
     float:left;
     top:150px;
+}
+#photos {
+    padding-left:90px;
+    align-items: center;
+}
+#form {
+    padding: 10px 0 0 15px;
+}
+#form p{
+    font-size: 120%;
+}
+input {
+	margin: 8px 2px ; 
+	width:600px;
+    align-items: center;
+}
+#button {
+	margin-left: 0px;
+	width:80px;
+	background-color: black;
+    color:white;
 }

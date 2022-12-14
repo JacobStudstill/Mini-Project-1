@@ -23,7 +23,7 @@
         <nav class="nav">
             <li><a href="./index.html">Home</a></li>
             <li><a href="./index.html">Our Services</a></li>
-            <li><a href="./index.html">Contact</a></li>
+            <li><a href="#form">Contact</a></li>
             </nav>
 
     </section>
@@ -47,7 +47,7 @@
     </script>
 
     <section id="paragraph">
-        <h3><p>This is code that we are writing and it is going to be appearing hopefully on the page soon 
+        <p>This is code that we are writing and it is going to be appearing hopefully on the page soon 
             This is code that we are writing and it is going to be appearing hopefully on the page soon
             This is code that we are writing and it is going to be appearing hopefully on the page soon
             This is code that we are writing and it is going to be appearing hopefully on the page soon
@@ -58,7 +58,30 @@
             This is code that we are writing and it is going to be appearing hopefully on the page soon
             This is code that we are writing and it is going to be appearing hopefully on the page soon
             This is code that we are writing and it is going to be appearing hopefully on the page soon
-        </p></h3>
+        </p>
+    </section>
+
+    <section id="photos">
+        <img src="./images/cutting tree.jpg" alt="Cutting down tree" width="200px">
+        <img src="./images/lawn.png" alt="Lawn Mower" width="200px">
+        <img src="./images/raking.png" alt="Raking Leaves" width="200px">
+    </section>
+
+    <section id="form">
+        <p>Please enter the following information if you are interested in our services. We will reach out within 24 hours to discuss information further.</p>
+        <form>
+            <label for="firstname" >First Name:</label>
+            <input type="text" id="firstname" autofocus required><br>
+            <label for="lastname" >Last Name:</label>
+            <input type="text" id="lastname" required><br>
+            <label for="email" >Email:</label>
+            <input type="text" id="email" required><br>
+            <label for="zipcode" >Zip Code:</label>
+            <input type="text" id="zipcode" placeholder="Optional but appreciated: 99999"><br>
+            <input type="submit" id="button" value="Subscribe" formaction="index.html">
+    
+        </form>
+
     </section>
 </body>
 
