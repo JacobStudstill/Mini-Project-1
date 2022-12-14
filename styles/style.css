@@ -7,7 +7,7 @@ html {
 }
 body {
     max-width: 800px;
-    height:1100px;
+    height:1150px;
     background-color: white;
     margin:0 auto;
     padding:0;
@@ -83,9 +83,13 @@ header h2 {
     float:left;
     top:150px;
 }
-#photos {
-    padding-left:90px;
+#photos img{
+    margin-left:40px;
     align-items: center;
+}
+#photos p {
+    padding-left: 15px;
+    font-size: 120%;
 }
 #form {
     padding: 10px 0 0 15px;
